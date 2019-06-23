@@ -11,23 +11,31 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Tests" Type="Folder">
-			<Item Name="suite SSL Client.lvclass" Type="LVClass" URL="../Unit Tests/suite SSL Client/suite SSL Client/suite SSL Client.lvclass"/>
-			<Item Name="test BIO.lvclass" Type="LVClass" URL="../Unit Tests/test BIO/test BIO/test BIO.lvclass"/>
-			<Item Name="test SSL Client.lvclass" Type="LVClass" URL="../Unit Tests/test SSL Client/test SSL Client.lvclass"/>
+		<Item Name="Playground VIs" Type="Folder">
+			<Item Name="HTTPS Client Test.vi" Type="VI" URL="../Playground VIs/HTTPS Client Test.vi"/>
+			<Item Name="HTTPS Server Test with BIO &amp; TCPIP Nodes.vi" Type="VI" URL="../Playground VIs/HTTPS Server Test with BIO &amp; TCPIP Nodes.vi"/>
+			<Item Name="HTTPS Server Test with TCPIP Nodes.vi" Type="VI" URL="../Playground VIs/HTTPS Server Test with TCPIP Nodes.vi"/>
+			<Item Name="HTTPS Server Test.vi" Type="VI" URL="../Playground VIs/HTTPS Server Test.vi"/>
+			<Item Name="Load Certificates Test.vi" Type="VI" URL="../Playground VIs/Load Certificates Test.vi"/>
+			<Item Name="Secure WebSocket Client Test.vi" Type="VI" URL="../Playground VIs/Secure WebSocket Client Test.vi"/>
+			<Item Name="Secure WebSocket Server Test.vi" Type="VI" URL="../Playground VIs/Secure WebSocket Server Test.vi"/>
+		</Item>
+		<Item Name="Unit Tests" Type="Folder">
+			<Item Name="BIO" Type="Folder">
+				<Item Name="test BIO.lvclass" Type="LVClass" URL="../Unit Tests/test BIO/test BIO/test BIO.lvclass"/>
+			</Item>
+			<Item Name="Client" Type="Folder">
+				<Item Name="suite SSL Client.lvclass" Type="LVClass" URL="../Unit Tests/suite SSL Client/suite SSL Client/suite SSL Client.lvclass"/>
+				<Item Name="test SSL Client.lvclass" Type="LVClass" URL="../Unit Tests/test SSL Client/test SSL Client.lvclass"/>
+			</Item>
+			<Item Name="test Secure Socket.lvclass" Type="LVClass" URL="../Unit Tests/test Secure Socket/test Secure Socket.lvclass"/>
+			<Item Name="test Secure WebSocket Client.lvclass" Type="LVClass" URL="../Unit Tests/test Secure WebSocket Client/test Secure WebSocket Client.lvclass"/>
 		</Item>
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="Generate Certificate.vi" Type="VI" URL="../Utilities/Generate Certificate.vi"/>
 		</Item>
-		<Item Name="HTTPS Client Test.vi" Type="VI" URL="../HTTPS Client Test.vi"/>
-		<Item Name="HTTPS Client.vi" Type="VI" URL="/C/Users/Sam/Desktop/HTTPS Client.vi"/>
-		<Item Name="HTTPS Server Test with BIO &amp; TCPIP Nodes.vi" Type="VI" URL="../HTTPS Server Test with BIO &amp; TCPIP Nodes.vi"/>
-		<Item Name="HTTPS Server Test with TCPIP Nodes.vi" Type="VI" URL="../HTTPS Server Test with TCPIP Nodes.vi"/>
-		<Item Name="HTTPS Server Test.vi" Type="VI" URL="../HTTPS Server Test.vi"/>
-		<Item Name="Load Certificates Test.vi" Type="VI" URL="../Load Certificates Test.vi"/>
 		<Item Name="OpenSSL Socket.lvlib" Type="Library" URL="../Secure Socket/OpenSSL Socket.lvlib"/>
-		<Item Name="Secure WebSocket Client Test.vi" Type="VI" URL="../Secure WebSocket Client Test.vi"/>
-		<Item Name="Secure WebSocket Server Test.vi" Type="VI" URL="../Secure WebSocket Server Test.vi"/>
+		<Item Name="Secure SSL Client Test.vi" Type="VI" URL="../Playground VIs/Secure SSL Client Test.vi"/>
 		<Item Name="SSL_Lib.lvlib" Type="Library" URL="../SSL_Lib/SSL_Lib.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -44,7 +52,6 @@
 				<Item Name="Build Path - Traditional__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Build Path - Traditional__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Build Path__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Build Path__ogtk__jki_vi_tester.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
-				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear All Errors__jki_lib_error_handling -- VI Tester__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Clear All Errors__jki_lib_error_handling -- VI Tester__jki_vi_tester.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -195,20 +202,16 @@
 				<Item Name="Get Waveform Type Enum from TD__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Get Waveform Type Enum from TD__ogtk__jki_vi_tester.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
 				<Item Name="Is an Error (any error array element)__jki_lib_error_handling VI Tester__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Is an Error (any error array element)__jki_lib_error_handling VI Tester__jki_vi_tester.vi"/>
 				<Item Name="Is an Error (error array)__jki_lib_error_handling -- VI Tester__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Is an Error (error array)__jki_lib_error_handling -- VI Tester__jki_vi_tester.vi"/>
 				<Item Name="Is an Error (error cluster)__jki_lib_error_handling -- VI Tester__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Is an Error (error cluster)__jki_lib_error_handling -- VI Tester__jki_vi_tester.vi"/>
 				<Item Name="Is an Error__jki_lib_error_handling -- VI Tester__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Is an Error__jki_lib_error_handling -- VI Tester__jki_vi_tester.vi"/>
 				<Item Name="Join Strings.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Join Strings.vi"/>
-				<Item Name="LabVIEWHTTPClient.lvlib" Type="Library" URL="/&lt;vilib&gt;/httpClient/LabVIEWHTTPClient.lvlib"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="Multi-line String to Array__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Multi-line String to Array__ogtk__jki_vi_tester.vi"/>
-				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
-				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
-				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
 				<Item Name="Random Number - Within Range__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Random Number - Within Range__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Refnum Subtype Enum__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Refnum Subtype Enum__ogtk__jki_vi_tester.ctl"/>
 				<Item Name="Remove Duplicates from 1D Array (Boolean)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Remove Duplicates from 1D Array (Boolean)__ogtk__jki_vi_tester.vi"/>
@@ -343,6 +346,9 @@
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="TCP Get Raw Net Object.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Get Raw Net Object.vi"/>
+				<Item Name="TCP Listen Internal List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen Internal List.vi"/>
+				<Item Name="TCP Listen List Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen List Operations.ctl"/>
+				<Item Name="TCP Listen.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen.vi"/>
 				<Item Name="TestCase.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/TestCase.llb/TestCase.lvclass"/>
 				<Item Name="TestLoader.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/TestLoader.llb/TestLoader.lvclass"/>
 				<Item Name="TestResult.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/TestResult.llb/TestResult.lvclass"/>
