@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="13008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -40,6 +41,7 @@
 			<Item Name="Generate Certificate.vi" Type="VI" URL="../Utilities/Generate Certificate.vi"/>
 		</Item>
 		<Item Name="dotNET SSL Socket.lvlib" Type="Library" URL="../dotNET SSL Socket/dotNET SSL Socket.lvlib"/>
+		<Item Name="dotNET WebSocket.lvlib" Type="Library" URL="../dotNET SSL Socket/dotNET WebSocket/dotNET WebSocket.lvlib"/>
 		<Item Name="OpenSSL Socket.lvlib" Type="Library" URL="../NI OpenSSL Socket/OpenSSL Socket.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
