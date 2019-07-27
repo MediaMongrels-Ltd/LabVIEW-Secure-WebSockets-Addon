@@ -1,6 +1,9 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="13008000">
+	<Property Name="NI.Lib.Description" Type="Str">Socket implementation using .NET. Supports insecure and secure (SSL/TLS) sockets.</Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*Z!!!*Q(C=\&gt;7`&lt;N.1&amp;-@R(R:$6\]"SA1D/B-LSN;*3HE#J0-#$&amp;E:CJ3V(:!/AI%V4V#5&amp;85[#_T:G0U+ZOO&lt;'^N"C#Z5-.4/^:_@@=`^V,ZSJ&lt;+=39`6X\5U4@E.2_8MM#WHZ;3UQ]EB;?;&lt;PH:O_OH;F)`\7@_J^X'Q=@TG:0B+'E^/KBWV`64Z7+DJ@`7&gt;'PJR=TS9OP[O@T`L-2``K0XTII@F9@GXS^M\*_G^T^F('DZ%N+1&amp;T7GG9;A_S:-]S:-]S:-]S)-]S)-]S)0=S:X=S:X=S:X=S)X=S)X=S)W]L/1C&amp;\H))37$*Q-F2:-#S=V1F'Q34_**0)G(5S7?R*.Y%E`CY29FHM34?"*0YK'&lt;%E`C34S**`&amp;1KECSL/2Y%A`F&amp;8A#4_!*0)'()26Y!E!Q7&amp;!Y+!*$Q=8A)0!%HM$$I1*0Y!E]A3@Q=&amp;G"*`!%HM!4?/B3HEI5T&lt;#3Y['-()`D=4S/R`&amp;17I\(]4A?R_.Y'%[/R`%Y#'&gt;!JTA%/:W='ZQ4R_.YW-HR/"\(YXA=$Z@+'`,S:!&lt;.M*,D-4S'R`!9(M.$#2E?QW.Y$)`BI;Q-D_%R0)&lt;(]$#5$)`B-4Q'R"C5Y755-TI;.RG"Y?&amp;8:IO6NR2&amp;9G76[O26H:3KEUVV%KF/$N78LPIS66_3[M.8@;CK$UPV);D_=;JI69TK)+K&gt;BRP6M&gt;X4&gt;L1N&lt;5.&lt;UV;U*7V";Y?O@`H'LOOUX__VW_WUX7[VW7SU8K_V7KWU8#[V7#T5NOXY'8D#/HY1$N_F[_\&amp;NQ_8,^PX8Z^@86_?P@L_Y]WHD\@H8TY`OWDD[?PW(@O&lt;W`/L?`J@_B^]'^6I8J&gt;H^"-[D[73!!!!!!</Property>
+	<Property Name="NI.Lib.LocalName" Type="Str">dotNET Socket</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
