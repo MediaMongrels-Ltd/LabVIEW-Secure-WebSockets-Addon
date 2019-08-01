@@ -34,6 +34,7 @@
 				<Item Name="suite SSL Client.lvclass" Type="LVClass" URL="../Unit Tests/suite SSL Client/suite SSL Client/suite SSL Client.lvclass"/>
 				<Item Name="test SSL Client.lvclass" Type="LVClass" URL="../Unit Tests/test SSL Client/test SSL Client.lvclass"/>
 			</Item>
+			<Item Name="test Multiple Clients.lvclass" Type="LVClass" URL="../Unit Tests/test Multiple Clients/test Multiple Clients/test Multiple Clients.lvclass"/>
 			<Item Name="test Secure Socket.lvclass" Type="LVClass" URL="../Unit Tests/test Secure Socket/test Secure Socket.lvclass"/>
 			<Item Name="test Secure WebSocket Client.lvclass" Type="LVClass" URL="../Unit Tests/test Secure WebSocket Client/test Secure WebSocket Client.lvclass"/>
 		</Item>
