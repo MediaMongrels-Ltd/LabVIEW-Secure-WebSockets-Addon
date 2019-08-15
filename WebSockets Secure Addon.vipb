@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-06-25 16:25:57" Modified_Date="2019-08-01 20:44:00" Creator="Sam" Comments="" ID="63afcd1843a826c36a3e3335375afb23">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-06-25 16:25:57" Modified_Date="2019-08-15 20:35:24" Creator="Sam" Comments="" ID="72aa03c7fb34e7d527fa247e584e2109">
   <Library_General_Settings>
     <Package_File_Name>MediaMongrels_Ltd_lib_WebSockets_Secure_Addon</Package_File_Name>
-    <Library_Version>1.0.1.4</Library_Version>
+    <Library_Version>1.0.3.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>Builds</Library_Output_Folder>
@@ -17,14 +17,8 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>mediamongrels_ltd_lib_websockets_api &gt;= 2.0.0.33</External_Dependencies>
-      <External_Dependencies>mgi_lib_application_control &gt;= 1.1.1.10</External_Dependencies>
-      <External_Dependencies>mgi_lib_cluster &gt;= 1.1.0.1</External_Dependencies>
-      <External_Dependencies>mgi_lib_error_handling &gt;= 1.1.1.3</External_Dependencies>
-      <External_Dependencies>mgi_lib_file &gt;= 1.1.0.4</External_Dependencies>
-      <External_Dependencies>mgi_lib_read_write_anything &gt;= 2.1.4.4</External_Dependencies>
-      <External_Dependencies>mgi_lib_string &gt;= 1.1.1.5</External_Dependencies>
-      <Direct_Dependencies>mediamongrels_ltd_lib_websockets_api-2.0.0.33</Direct_Dependencies>
+      <External_Dependencies>mediamongrels_ltd_lib_websockets_api &gt;= 2.0.0.35</External_Dependencies>
+      <Direct_Dependencies>mediamongrels_ltd_lib_websockets_api-2.0.0.35</Direct_Dependencies>
       <Direct_Dependencies>mgi_lib_application_control-1.1.1.10</Direct_Dependencies>
       <Direct_Dependencies>mgi_lib_cluster-1.1.0.1</Direct_Dependencies>
       <Direct_Dependencies>mgi_lib_error_handling-1.1.1.3</Direct_Dependencies>
@@ -285,7 +279,7 @@ Contains:
         <Path>Source\dotNET SSL Socket\dotNET WebSocket\Server\New dotNET WebSocket Server.vi</Path>
         <VI_Title>New dotNET WS Server</VI_Title>
       </Items_Data>
-      <GUID>8E4CDC901967CC792CBAE845355740B9</GUID>
+      <GUID>B1EC2B217833A16AEEFCD146CD6E4D26</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -376,7 +370,7 @@ Contains:
         <Path>Source\dotNET SSL Socket\dotNET SSL Client</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A58E5A25E31EDA64F7B9D078E48029E0</GUID>
+      <GUID>49D6FD1ACD54E298A085196BB4F7AD64</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -453,7 +447,7 @@ Contains:
         <Path>Source\dotNET SSL Socket\dotNET SSL Listener\New dotNET Socket Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>26961D9FF051E299C1F51919B566C518</GUID>
+      <GUID>C0C838F0C9DAD8AA43FB153A6D6F1D7F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -530,7 +524,7 @@ Contains:
         <Path>Source\dotNET SSL Socket\dotNET SSL Socket\Handshake.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>700EB8F6D29D7B8A98D45A140926CD5B</GUID>
+      <GUID>A667C0C18463FE24A0AC540249A4EE51</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -621,7 +615,7 @@ Contains:
         <Path>Source\dotNET SSL Socket\dotNET TCP Socket\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FEADF58EE254BFFF737485DDC58A0647</GUID>
+      <GUID>D6DE0B5CCBFEE5B5B16025C4DCA49ADC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -670,7 +664,7 @@ Contains:
         <Path>Source\dotNET SSL Socket\dotNET SSL Client\Upgrade dotNET Socket to SSL.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>92A9A3AD38527F612D6D415A67B1B606</GUID>
+      <GUID>DEF6E03567463285DBCFE5D156B76E7D</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

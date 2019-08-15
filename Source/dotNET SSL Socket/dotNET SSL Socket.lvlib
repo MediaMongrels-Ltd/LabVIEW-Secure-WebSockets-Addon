@@ -15,4 +15,5 @@
 	<Item Name="dotNET SSL Server.lvclass" Type="LVClass" URL="../dotNET SSL Server/dotNET SSL Server.lvclass"/>
 	<Item Name="dotNET SSL Socket.lvclass" Type="LVClass" URL="../dotNET SSL Socket/dotNET SSL Socket.lvclass"/>
 	<Item Name="dotNET TCP Socket.lvclass" Type="LVClass" URL="../dotNET TCP Socket/dotNET TCP Socket.lvclass"/>
+	<Item Name="TimeoutSSLStream.dll" Type="Document" URL="../TimeoutSSLStream.dll"/>
 </Library>
