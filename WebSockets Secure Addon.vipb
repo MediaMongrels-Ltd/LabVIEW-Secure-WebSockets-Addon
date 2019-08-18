@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-06-25 16:25:57" Modified_Date="2019-08-15 20:35:24" Creator="Sam" Comments="" ID="72aa03c7fb34e7d527fa247e584e2109">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-06-25 16:25:57" Modified_Date="2019-08-18 13:29:08" Creator="Sam" Comments="" ID="4841b26d2956862cce07b19a9f44e0dd">
   <Library_General_Settings>
     <Package_File_Name>MediaMongrels_Ltd_lib_WebSockets_Secure_Addon</Package_File_Name>
-    <Library_Version>1.0.3.6</Library_Version>
+    <Library_Version>1.0.4.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>Builds</Library_Output_Folder>
@@ -279,7 +279,7 @@ Contains:
         <Path>Source\dotNET SSL Socket\dotNET WebSocket\Server\New dotNET WebSocket Server.vi</Path>
         <VI_Title>New dotNET WS Server</VI_Title>
       </Items_Data>
-      <GUID>B1EC2B217833A16AEEFCD146CD6E4D26</GUID>
+      <GUID>7AF70105BF6D72F9BE2CA00AA95D7FE4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -370,7 +370,7 @@ Contains:
         <Path>Source\dotNET SSL Socket\dotNET SSL Client</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>49D6FD1ACD54E298A085196BB4F7AD64</GUID>
+      <GUID>167189631FFC13A3DC96BA3BB9B7A7ED</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -447,7 +447,7 @@ Contains:
         <Path>Source\dotNET SSL Socket\dotNET SSL Listener\New dotNET Socket Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C0C838F0C9DAD8AA43FB153A6D6F1D7F</GUID>
+      <GUID>0D140F57C64D9796C60F121220D76313</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -524,7 +524,7 @@ Contains:
         <Path>Source\dotNET SSL Socket\dotNET SSL Socket\Handshake.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A667C0C18463FE24A0AC540249A4EE51</GUID>
+      <GUID>B02862474DAAF7273ADA6D1EA2F44A2B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -615,7 +615,7 @@ Contains:
         <Path>Source\dotNET SSL Socket\dotNET TCP Socket\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D6DE0B5CCBFEE5B5B16025C4DCA49ADC</GUID>
+      <GUID>4989DB20311804E08516EF19C0D2CFDB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -664,7 +664,7 @@ Contains:
         <Path>Source\dotNET SSL Socket\dotNET SSL Client\Upgrade dotNET Socket to SSL.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DEF6E03567463285DBCFE5D156B76E7D</GUID>
+      <GUID>625FD1158C512804F9B9445C66DF7737</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
