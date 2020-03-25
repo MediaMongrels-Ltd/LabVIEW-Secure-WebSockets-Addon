@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="13008000">
+<Project Type="Project" LVVersion="20006027">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -12,26 +12,15 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Example VIs" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="HTTPS Client Test.vi" Type="VI" URL="../Example VIs/HTTPS Client Test.vi"/>
-			<Item Name="HTTPS Server Test with BIO &amp; TCPIP Nodes.vi" Type="VI" URL="../Example VIs/HTTPS Server Test with BIO &amp; TCPIP Nodes.vi"/>
-			<Item Name="HTTPS Server Test with TCPIP Nodes.vi" Type="VI" URL="../Example VIs/HTTPS Server Test with TCPIP Nodes.vi"/>
-			<Item Name="dotNET SSL Socket.vi" Type="VI" URL="../Example VIs/dotNET SSL Socket.vi"/>
-			<Item Name="HTTPS Server Test.vi" Type="VI" URL="../Example VIs/HTTPS Server Test.vi"/>
-			<Item Name="Load Certificates Test.vi" Type="VI" URL="../Example VIs/Load Certificates Test.vi"/>
-			<Item Name="Secure SSL Client Test.vi" Type="VI" URL="../Example VIs/Secure SSL Client Test.vi"/>
-			<Item Name="Secure WebSocket Client Test.vi" Type="VI" URL="../Example VIs/Secure WebSocket Client Test.vi"/>
-			<Item Name="Secure WebSocket Server Test.vi" Type="VI" URL="../Example VIs/Secure WebSocket Server Test.vi"/>
-			<Item Name="Secure WebSocket Client Test with dotNET.vi" Type="VI" URL="../Example VIs/Secure WebSocket Client Test with dotNET.vi"/>
-			<Item Name="Secure WebSocket Server Test with dotNET.vi" Type="VI" URL="../Example VIs/Secure WebSocket Server Test with dotNET.vi"/>
+		<Item Name="Examples" Type="Folder">
+			<Item Name="Secure Client Example.vi" Type="VI" URL="../Example VIs/Secure Client Example.vi"/>
+			<Item Name="Secure Server Example.vi" Type="VI" URL="../Example VIs/Secure Server Example.vi"/>
 		</Item>
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="Certificate Generation.lvlib" Type="Library" URL="../Certificate Generation/Certificate Generation.lvlib"/>
 		</Item>
-		<Item Name="dotNET SSL Socket.lvlib" Type="Library" URL="../dotNET SSL Socket/dotNET SSL Socket.lvlib"/>
-		<Item Name="dotNET WebSocket.lvlib" Type="Library" URL="../dotNET SSL Socket/dotNET WebSocket/dotNET WebSocket.lvlib"/>
-		<Item Name="OpenSSL Socket.lvlib" Type="Library" URL="../NI OpenSSL Socket/OpenSSL Socket.lvlib"/>
+		<Item Name="Secure Sockets Addon.lvlib" Type="Library" URL="../Secure Sockets Addon/Secure Sockets Addon.lvlib"/>
+		<Item Name="Secure WebSockets Client.lvclass" Type="LVClass" URL="../Secure WebSocket Client/Secure WebSockets Client.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
@@ -94,7 +83,6 @@
 				<Item Name="Type Descriptor Header__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Header__ogtk.ctl"/>
 				<Item Name="Type Descriptor__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor__ogtk.ctl"/>
 				<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
-				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -113,7 +101,7 @@
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
@@ -124,6 +112,7 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
+				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
@@ -133,7 +122,6 @@
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
-				<Item Name="TCP Get Raw Net Object.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Get Raw Net Object.vi"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
@@ -142,12 +130,6 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="mscorlib" Type="VI" URL="mscorlib">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
